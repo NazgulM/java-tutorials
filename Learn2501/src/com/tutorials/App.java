@@ -7,6 +7,13 @@ public class App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		/*
+		 1 add income int
+		 2 add expenses 
+		 3 total budget
+		 4 total expenses
+		 5 exit
+		 */
 		
 		//global variables, we can access from any where
 				int budgetTotal = 0;
@@ -34,7 +41,7 @@ public class App {
 					case 2:
 						boolean expensesLogic = true;
 						while (expensesLogic) {
-						System.out.println("Addnew expenses: ");
+						System.out.println("Add new expenses: ");
 						int expense  = keyboard.nextInt();
 						budgetTotal -= expense; //budgetTotal = budgetTotal - expense
 						//2000-540 = budgetTotal
@@ -47,6 +54,10 @@ public class App {
 						break;
 					case 4:
 						System.out.println("You are leaving....bye bye");
+						keyboard.close();
+						System.exit(0);
+						
+						
 						break;
 					}
 					
