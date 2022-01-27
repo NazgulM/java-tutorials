@@ -50,9 +50,19 @@ public class olee {
 				System.out.println("SubArray Item Index Number "+ y) ;
 			}
 			
-			String [][]usernames = { {"root", "admin"}, {"guest", "user"} };
-			for (int x= 0; x<usernames[x])
-			System.out.println();
+			int a[]  = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+	 		int b []  = {11,33,33,65,88,66,44,99,11};
+			String [] xyz = {"root", "root", "admin", "user", "guest", "user"};
+			for (int x =0; x < b.length - 1; x++) {
+				System.out.println("first loop" + b[x]);
+				
+				for (int y=x+1;y<b.length;y++) {
+					System.out.println("second loop" + b[y]);
+					if(b[x] == b[y]) {
+						System.out.println(b[y] + "duplication found");
+					}
+				}
+			}
 		}
 	}
 	
