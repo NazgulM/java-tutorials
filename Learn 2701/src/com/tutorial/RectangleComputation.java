@@ -20,6 +20,7 @@ public class RectangleComputation {
 		System.out.println("The surface area of Cylinder: " + surfaceArea);
 		System.out.println("The volume of a cylinder: " + volume);
 		System.out.println("The base of Area: " + baseOfArea);
+
 		
 		/*double width, height, area, perimeter;
 		Scanner sc = new Scanner(System.in);
